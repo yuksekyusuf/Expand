@@ -11,6 +11,7 @@
 		579C790E27822D75008B7845 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579C790D27822D75008B7845 /* ContentView.swift */; };
 		579C791027822D78008B7845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579C790F27822D78008B7845 /* Assets.xcassets */; };
 		579C791327822D78008B7845 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579C791227822D78008B7845 /* Preview Assets.xcassets */; };
+		579C791B2782341B008B7845 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 579C79192782341B008B7845 /* Main.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		579C790D27822D75008B7845 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		579C790F27822D78008B7845 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		579C791227822D78008B7845 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		579C791A2782341B008B7845 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				579C790B27822D75008B7845 /* SwiftUIPortfolioApp.swift */,
 				579C790D27822D75008B7845 /* ContentView.swift */,
+				579C79192782341B008B7845 /* Main.xcdatamodeld */,
 				579C790F27822D78008B7845 /* Assets.xcassets */,
 				579C791127822D78008B7845 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				579C791B2782341B008B7845 /* Main.xcdatamodeld in Sources */,
 				579C790E27822D75008B7845 /* ContentView.swift in Sources */,
 				579C790C27822D75008B7845 /* SwiftUIPortfolioApp.swift in Sources */,
 			);
@@ -341,6 +345,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		579C79192782341B008B7845 /* Main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				579C791A2782341B008B7845 /* Main.xcdatamodel */,
+			);
+			currentVersion = 579C791A2782341B008B7845 /* Main.xcdatamodel */;
+			path = Main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 579C790027822D74008B7845 /* Project object */;
 }
