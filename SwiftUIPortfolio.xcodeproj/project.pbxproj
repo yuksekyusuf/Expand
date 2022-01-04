@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5759EAF72783EDC60003A493 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759EAF62783EDC60003A493 /* HomeView.swift */; };
+		5759EAF92783EE6E0003A493 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759EAF82783EE6E0003A493 /* ProjectsView.swift */; };
 		579C790C27822D75008B7845 /* SwiftUIPortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579C790B27822D75008B7845 /* SwiftUIPortfolioApp.swift */; };
 		579C790E27822D75008B7845 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579C790D27822D75008B7845 /* ContentView.swift */; };
 		579C791027822D78008B7845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579C790F27822D78008B7845 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5759EAF62783EDC60003A493 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5759EAF82783EE6E0003A493 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		579C790827822D75008B7845 /* SwiftUIPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		579C790B27822D75008B7845 /* SwiftUIPortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPortfolioApp.swift; sourceTree = "<group>"; };
 		579C790D27822D75008B7845 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,7 +28,6 @@
 		579C791A2782341B008B7845 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 		579C791C2782368F008B7845 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		57F5CB98278290150006FB1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		57F5CB99278290380006FB1B /* SwiftUIPortfolioDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIPortfolioDebug.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,6 @@
 		579C790A27822D75008B7845 /* SwiftUIPortfolio */ = {
 			isa = PBXGroup;
 			children = (
-				57F5CB99278290380006FB1B /* SwiftUIPortfolioDebug.entitlements */,
 				57F5CB98278290150006FB1B /* Info.plist */,
 				579C790B27822D75008B7845 /* SwiftUIPortfolioApp.swift */,
 				579C790D27822D75008B7845 /* ContentView.swift */,
@@ -65,6 +67,8 @@
 				579C791C2782368F008B7845 /* DataController.swift */,
 				579C790F27822D78008B7845 /* Assets.xcassets */,
 				579C791127822D78008B7845 /* Preview Content */,
+				5759EAF62783EDC60003A493 /* HomeView.swift */,
+				5759EAF82783EE6E0003A493 /* ProjectsView.swift */,
 			);
 			path = SwiftUIPortfolio;
 			sourceTree = "<group>";
@@ -147,9 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5759EAF92783EE6E0003A493 /* ProjectsView.swift in Sources */,
 				579C791B2782341B008B7845 /* Main.xcdatamodeld in Sources */,
 				579C791D2782368F008B7845 /* DataController.swift in Sources */,
 				579C790E27822D75008B7845 /* ContentView.swift in Sources */,
+				5759EAF72783EDC60003A493 /* HomeView.swift in Sources */,
 				579C790C27822D75008B7845 /* SwiftUIPortfolioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
