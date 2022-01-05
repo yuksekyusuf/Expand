@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct SwiftUIPortfolioApp: App {
+struct ExpandApp: App {
     
     @StateObject var dataController: DataController
     

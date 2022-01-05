@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		5759EAF72783EDC60003A493 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759EAF62783EDC60003A493 /* HomeView.swift */; };
 		5759EAF92783EE6E0003A493 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759EAF82783EE6E0003A493 /* ProjectsView.swift */; };
-		579C790C27822D75008B7845 /* SwiftUIPortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579C790B27822D75008B7845 /* SwiftUIPortfolioApp.swift */; };
+		579C790C27822D75008B7845 /* Expand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579C790B27822D75008B7845 /* Expand.swift */; };
 		579C790E27822D75008B7845 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579C790D27822D75008B7845 /* ContentView.swift */; };
 		579C791027822D78008B7845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579C790F27822D78008B7845 /* Assets.xcassets */; };
 		579C791327822D78008B7845 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579C791227822D78008B7845 /* Preview Assets.xcassets */; };
@@ -20,8 +20,8 @@
 /* Begin PBXFileReference section */
 		5759EAF62783EDC60003A493 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		5759EAF82783EE6E0003A493 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
-		579C790827822D75008B7845 /* SwiftUIPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		579C790B27822D75008B7845 /* SwiftUIPortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPortfolioApp.swift; sourceTree = "<group>"; };
+		579C790827822D75008B7845 /* Expand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		579C790B27822D75008B7845 /* Expand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expand.swift; sourceTree = "<group>"; };
 		579C790D27822D75008B7845 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		579C790F27822D78008B7845 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		579C791227822D78008B7845 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		579C78FF27822D74008B7845 = {
 			isa = PBXGroup;
 			children = (
-				579C790A27822D75008B7845 /* SwiftUIPortfolio */,
+				579C790A27822D75008B7845 /* Expand */,
 				579C790927822D75008B7845 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,16 +52,16 @@
 		579C790927822D75008B7845 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				579C790827822D75008B7845 /* SwiftUIPortfolio.app */,
+				579C790827822D75008B7845 /* Expand.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		579C790A27822D75008B7845 /* SwiftUIPortfolio */ = {
+		579C790A27822D75008B7845 /* Expand */ = {
 			isa = PBXGroup;
 			children = (
 				57F5CB98278290150006FB1B /* Info.plist */,
-				579C790B27822D75008B7845 /* SwiftUIPortfolioApp.swift */,
+				579C790B27822D75008B7845 /* Expand.swift */,
 				579C790D27822D75008B7845 /* ContentView.swift */,
 				579C79192782341B008B7845 /* Main.xcdatamodeld */,
 				579C791C2782368F008B7845 /* DataController.swift */,
@@ -70,7 +70,7 @@
 				5759EAF62783EDC60003A493 /* HomeView.swift */,
 				5759EAF82783EE6E0003A493 /* ProjectsView.swift */,
 			);
-			path = SwiftUIPortfolio;
+			path = Expand;
 			sourceTree = "<group>";
 		};
 		579C791127822D78008B7845 /* Preview Content */ = {
@@ -84,9 +84,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		579C790727822D74008B7845 /* SwiftUIPortfolio */ = {
+		579C790727822D74008B7845 /* Expand */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 579C791627822D78008B7845 /* Build configuration list for PBXNativeTarget "SwiftUIPortfolio" */;
+			buildConfigurationList = 579C791627822D78008B7845 /* Build configuration list for PBXNativeTarget "Expand" */;
 			buildPhases = (
 				579C790427822D74008B7845 /* Sources */,
 				579C790527822D74008B7845 /* Frameworks */,
@@ -96,9 +96,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftUIPortfolio;
+			name = Expand;
 			productName = SwiftUIPortfolio;
-			productReference = 579C790827822D75008B7845 /* SwiftUIPortfolio.app */;
+			productReference = 579C790827822D75008B7845 /* Expand.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -116,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 579C790327822D74008B7845 /* Build configuration list for PBXProject "SwiftUIPortfolio" */;
+			buildConfigurationList = 579C790327822D74008B7845 /* Build configuration list for PBXProject "Expand" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -129,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				579C790727822D74008B7845 /* SwiftUIPortfolio */,
+				579C790727822D74008B7845 /* Expand */,
 			);
 		};
 /* End PBXProject section */
@@ -156,7 +156,7 @@
 				579C791D2782368F008B7845 /* DataController.swift in Sources */,
 				579C790E27822D75008B7845 /* ContentView.swift in Sources */,
 				5759EAF72783EDC60003A493 /* HomeView.swift in Sources */,
-				579C790C27822D75008B7845 /* SwiftUIPortfolioApp.swift in Sources */,
+				579C790C27822D75008B7845 /* Expand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,14 +284,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SwiftUIPortfolio/SwiftUIPortfolioDebug.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Expand/ExpandDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIPortfolio/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Expand/Preview Content\"";
 				DEVELOPMENT_TEAM = 62739J54F9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwiftUIPortfolio/Info.plist;
+				INFOPLIST_FILE = Expand/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -317,11 +317,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIPortfolio/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Expand/Preview Content\"";
 				DEVELOPMENT_TEAM = 62739J54F9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwiftUIPortfolio/Info.plist;
+				INFOPLIST_FILE = Expand/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -343,7 +343,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		579C790327822D74008B7845 /* Build configuration list for PBXProject "SwiftUIPortfolio" */ = {
+		579C790327822D74008B7845 /* Build configuration list for PBXProject "Expand" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				579C791427822D78008B7845 /* Debug */,
@@ -352,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		579C791627822D78008B7845 /* Build configuration list for PBXNativeTarget "SwiftUIPortfolio" */ = {
+		579C791627822D78008B7845 /* Build configuration list for PBXNativeTarget "Expand" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				579C791727822D78008B7845 /* Debug */,
