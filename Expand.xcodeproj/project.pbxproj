@@ -18,6 +18,7 @@
 		57B961B82787CA7A00004321 /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B961B72787CA7A00004321 /* Binding-OnChange.swift */; };
 		57B961BA2787CF7900004321 /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B961B92787CF7900004321 /* ProjectHeaderView.swift */; };
 		57B961BC2787D2C200004321 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B961BB2787D2C200004321 /* Colors.xcassets */; };
+		57B961BE2787D40800004321 /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B961BD2787D40800004321 /* EditProjectView.swift */; };
 		57D2C0BA2785557500F0FE2D /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D2C0B92785557500F0FE2D /* Item-CoreDataHelpers.swift */; };
 		57D2C0BC2785567100F0FE2D /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D2C0BB2785567100F0FE2D /* Project-CoreDataHelpers.swift */; };
 		57F2AF522786284F00A4D75F /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F2AF512786284F00A4D75F /* EditItemView.swift */; };
@@ -37,6 +38,7 @@
 		57B961B72787CA7A00004321 /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
 		57B961B92787CF7900004321 /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
 		57B961BB2787D2C200004321 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		57B961BD2787D40800004321 /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
 		57D2C0B92785557500F0FE2D /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		57D2C0BB2785567100F0FE2D /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		57F2AF512786284F00A4D75F /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				57F2AF5327862DA100A4D75F /* ItemRowView.swift */,
 				57D2C0B92785557500F0FE2D /* Item-CoreDataHelpers.swift */,
 				57D2C0BB2785567100F0FE2D /* Project-CoreDataHelpers.swift */,
+				57B961BD2787D40800004321 /* EditProjectView.swift */,
 			);
 			path = Expand;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				57B961BA2787CF7900004321 /* ProjectHeaderView.swift in Sources */,
 				579C791B2782341B008B7845 /* Main.xcdatamodeld in Sources */,
 				57D2C0BC2785567100F0FE2D /* Project-CoreDataHelpers.swift in Sources */,
+				57B961BE2787D40800004321 /* EditProjectView.swift in Sources */,
 				579C791D2782368F008B7845 /* DataController.swift in Sources */,
 				57F2AF5427862DA100A4D75F /* ItemRowView.swift in Sources */,
 				579C790E27822D75008B7845 /* ContentView.swift in Sources */,
