@@ -21,27 +21,23 @@ struct ProjectsView: View {
     let projects: FetchRequest<Project>
     init(showClosedProjects: Bool) {
         self.showClosedProjects = showClosedProjects
-        
         projects = FetchRequest<Project>(entity: Project.entity(), sortDescriptors: [
                  NSSortDescriptor(keyPath: \Project.creationDate, ascending: false)], predicate: NSPredicate(format: "closed = %d", showClosedProjects))
     }
-    
-    
     var body: some View {
         NavigationView {
             List {
                 ForEach(projects.wrappedValue) { project in
                     Section(header: ProjectHeaderView(project: project)) {
                         ForEach(project.sortedProjectItems(using: sortOrder)) { item in
-                            ItemRowView(item: item)
+                            ItemRowView(project: project, item: item)
                         }
                         .onDelete { offsets in
-                            let allItems = project.projectItems
+                            let allItems = project.sortedProjectItems(using: sortOrder)
                             for offset in offsets {
                                 let item = allItems[offset]
                                 dataController.delete(item)
                             }
-
                             dataController.save()
                         }
                         if showClosedProjects == false {
