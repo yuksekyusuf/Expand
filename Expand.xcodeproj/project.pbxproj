@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5732D9FE278D1D620082E926 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732D9FD278D1D620082E926 /* Bundle-Decodable.swift */; };
+		5732DA00278D21260082E926 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 5732D9FF278D21260082E926 /* Awards.json */; };
+		5732DA02278D21660082E926 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732DA01278D21660082E926 /* Award.swift */; };
+		5732DA04278D22220082E926 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732DA03278D22220082E926 /* AwardsView.swift */; };
 		5759EAF72783EDC60003A493 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759EAF62783EDC60003A493 /* HomeView.swift */; };
 		5759EAF92783EE6E0003A493 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759EAF82783EE6E0003A493 /* ProjectsView.swift */; };
 		579C790C27822D75008B7845 /* Expand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579C790B27822D75008B7845 /* Expand.swift */; };
@@ -26,6 +30,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5732D9FD278D1D620082E926 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		5732D9FF278D21260082E926 /* Awards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Awards.json; sourceTree = "<group>"; };
+		5732DA01278D21660082E926 /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
+		5732DA03278D22220082E926 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 		5759EAF62783EDC60003A493 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		5759EAF82783EE6E0003A493 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		579C790827822D75008B7845 /* Expand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expand.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,10 +97,14 @@
 				579C791127822D78008B7845 /* Preview Content */,
 				5759EAF62783EDC60003A493 /* HomeView.swift */,
 				5759EAF82783EE6E0003A493 /* ProjectsView.swift */,
+				5732D9FD278D1D620082E926 /* Bundle-Decodable.swift */,
 				57F2AF5327862DA100A4D75F /* ItemRowView.swift */,
 				57D2C0B92785557500F0FE2D /* Item-CoreDataHelpers.swift */,
 				57D2C0BB2785567100F0FE2D /* Project-CoreDataHelpers.swift */,
 				57B961BD2787D40800004321 /* EditProjectView.swift */,
+				5732D9FF278D21260082E926 /* Awards.json */,
+				5732DA01278D21660082E926 /* Award.swift */,
+				5732DA03278D22220082E926 /* AwardsView.swift */,
 			);
 			path = Expand;
 			sourceTree = "<group>";
@@ -164,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57B961BC2787D2C200004321 /* Colors.xcassets in Resources */,
+				5732DA00278D21260082E926 /* Awards.json in Resources */,
 				579C791327822D78008B7845 /* Preview Assets.xcassets in Resources */,
 				579C791027822D78008B7845 /* Assets.xcassets in Resources */,
 			);
@@ -181,13 +194,16 @@
 				579C791B2782341B008B7845 /* Main.xcdatamodeld in Sources */,
 				57D2C0BC2785567100F0FE2D /* Project-CoreDataHelpers.swift in Sources */,
 				57B961BE2787D40800004321 /* EditProjectView.swift in Sources */,
+				5732D9FE278D1D620082E926 /* Bundle-Decodable.swift in Sources */,
 				579C791D2782368F008B7845 /* DataController.swift in Sources */,
 				57F2AF5427862DA100A4D75F /* ItemRowView.swift in Sources */,
+				5732DA04278D22220082E926 /* AwardsView.swift in Sources */,
 				579C790E27822D75008B7845 /* ContentView.swift in Sources */,
 				57B961B82787CA7A00004321 /* Binding-OnChange.swift in Sources */,
 				5759EAF72783EDC60003A493 /* HomeView.swift in Sources */,
 				579C790C27822D75008B7845 /* Expand.swift in Sources */,
 				57D2C0BA2785557500F0FE2D /* Item-CoreDataHelpers.swift in Sources */,
+				5732DA02278D21660082E926 /* Award.swift in Sources */,
 				57F2AF522786284F00A4D75F /* EditItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
