@@ -67,6 +67,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5732DA07278D35B70082E926 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5759EAF62783EDC60003A493 /* HomeView.swift */,
+				579C790D27822D75008B7845 /* ContentView.swift */,
+				5732DA03278D22220082E926 /* AwardsView.swift */,
+				57B961BD2787D40800004321 /* EditProjectView.swift */,
+				57F2AF5327862DA100A4D75F /* ItemRowView.swift */,
+				5759EAF82783EE6E0003A493 /* ProjectsView.swift */,
+				57B961B92787CF7900004321 /* ProjectHeaderView.swift */,
+				57F2AF512786284F00A4D75F /* EditItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5732DA08278D35BF0082E926 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5732DA01278D21660082E926 /* Award.swift */,
+				57D2C0B92785557500F0FE2D /* Item-CoreDataHelpers.swift */,
+				57D2C0BB2785567100F0FE2D /* Project-CoreDataHelpers.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5732DA09278D35C70082E926 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				579C791C2782368F008B7845 /* DataController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5732DA0A278D363E0082E926 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5732D9FD278D1D620082E926 /* Bundle-Decodable.swift */,
+				57B961B72787CA7A00004321 /* Binding-OnChange.swift */,
+				5732DA05278D29C10082E926 /* Color-Additions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5732DA0B278D36770082E926 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				5732D9FF278D21260082E926 /* Awards.json */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
 		579C78FF27822D74008B7845 = {
 			isa = PBXGroup;
 			children = (
@@ -86,28 +137,17 @@
 		579C790A27822D75008B7845 /* Expand */ = {
 			isa = PBXGroup;
 			children = (
-				57F5CB98278290150006FB1B /* Info.plist */,
+				5732DA0B278D36770082E926 /* Localization */,
+				5732DA0A278D363E0082E926 /* Extensions */,
+				5732DA09278D35C70082E926 /* Controllers */,
+				5732DA08278D35BF0082E926 /* Models */,
+				5732DA07278D35B70082E926 /* Views */,
 				579C790B27822D75008B7845 /* Expand.swift */,
-				57B961B92787CF7900004321 /* ProjectHeaderView.swift */,
-				579C790D27822D75008B7845 /* ContentView.swift */,
-				57F2AF512786284F00A4D75F /* EditItemView.swift */,
-				57B961B72787CA7A00004321 /* Binding-OnChange.swift */,
 				579C79192782341B008B7845 /* Main.xcdatamodeld */,
-				579C791C2782368F008B7845 /* DataController.swift */,
 				579C790F27822D78008B7845 /* Assets.xcassets */,
 				57B961BB2787D2C200004321 /* Colors.xcassets */,
 				579C791127822D78008B7845 /* Preview Content */,
-				5759EAF62783EDC60003A493 /* HomeView.swift */,
-				5759EAF82783EE6E0003A493 /* ProjectsView.swift */,
-				5732D9FD278D1D620082E926 /* Bundle-Decodable.swift */,
-				57F2AF5327862DA100A4D75F /* ItemRowView.swift */,
-				57D2C0B92785557500F0FE2D /* Item-CoreDataHelpers.swift */,
-				57D2C0BB2785567100F0FE2D /* Project-CoreDataHelpers.swift */,
-				57B961BD2787D40800004321 /* EditProjectView.swift */,
-				5732D9FF278D21260082E926 /* Awards.json */,
-				5732DA05278D29C10082E926 /* Color-Additions.swift */,
-				5732DA01278D21660082E926 /* Award.swift */,
-				5732DA03278D22220082E926 /* AwardsView.swift */,
+				57F5CB98278290150006FB1B /* Info.plist */,
 			);
 			path = Expand;
 			sourceTree = "<group>";
