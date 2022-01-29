@@ -53,6 +53,7 @@ struct EditProjectView: View {
                             color = item
                             update()
                         }
+                        .accessibilityElement(children: .ignore)
                     }
                 }
                 .padding(.vertical)
