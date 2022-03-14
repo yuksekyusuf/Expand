@@ -69,11 +69,14 @@ struct ProjectsView: View {
                                 dataController.save()
                             }
                         } label: {
-                            Label("Add Project", systemImage: "plus")
+                            if UIAccessibility.isVoiceOverRunning {
+                                Text("Add Project")
+                            } else {
+                                Label("Add Project", systemImage: "plus")
+                            }
                         }
                     }
                 }
-                
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button {
                         showingSortedOrder.toggle()

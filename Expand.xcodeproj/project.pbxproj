@@ -74,41 +74,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5732DA07278D35B70082E926 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		5732DA08278D35BF0082E926 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		5732DA09278D35C70082E926 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		5732DA0A278D363E0082E926 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		5732DA0B278D36770082E926 /* Localization */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Localization;
-			sourceTree = "<group>";
-		};
 		579C78FF27822D74008B7845 = {
 			isa = PBXGroup;
 			children = (
@@ -145,11 +110,6 @@
 				5759EAF82783EE6E0003A493 /* ProjectsView.swift */,
 				57B961B92787CF7900004321 /* ProjectHeaderView.swift */,
 				57F2AF512786284F00A4D75F /* EditItemView.swift */,
-				5732DA0B278D36770082E926 /* Localization */,
-				5732DA0A278D363E0082E926 /* Extensions */,
-				5732DA09278D35C70082E926 /* Controllers */,
-				5732DA08278D35BF0082E926 /* Models */,
-				5732DA07278D35B70082E926 /* Views */,
 				579C790B27822D75008B7845 /* Expand.swift */,
 				579C79192782341B008B7845 /* Main.xcdatamodeld */,
 				579C790F27822D78008B7845 /* Assets.xcassets */,
