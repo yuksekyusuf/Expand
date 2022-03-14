@@ -28,6 +28,8 @@
 		57B961BE2787D40800004321 /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B961BD2787D40800004321 /* EditProjectView.swift */; };
 		57D2C0BA2785557500F0FE2D /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D2C0B92785557500F0FE2D /* Item-CoreDataHelpers.swift */; };
 		57D2C0BC2785567100F0FE2D /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D2C0BB2785567100F0FE2D /* Project-CoreDataHelpers.swift */; };
+		57E038B227DF68640025664F /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E038B127DF68640025664F /* ItemListView.swift */; };
+		57E038B427DF6A6B0025664F /* ProjectSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E038B327DF6A6B0025664F /* ProjectSummaryView.swift */; };
 		57F2AF522786284F00A4D75F /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F2AF512786284F00A4D75F /* EditItemView.swift */; };
 		57F2AF5427862DA100A4D75F /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F2AF5327862DA100A4D75F /* ItemRowView.swift */; };
 /* End PBXBuildFile section */
@@ -58,6 +60,8 @@
 		57B961BD2787D40800004321 /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
 		57D2C0B92785557500F0FE2D /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		57D2C0BB2785567100F0FE2D /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		57E038B127DF68640025664F /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
+		57E038B327DF6A6B0025664F /* ProjectSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSummaryView.swift; sourceTree = "<group>"; };
 		57F2AF512786284F00A4D75F /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		57F2AF5327862DA100A4D75F /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 		57F5CB98278290150006FB1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -103,12 +107,14 @@
 				57D2C0B92785557500F0FE2D /* Item-CoreDataHelpers.swift */,
 				57D2C0BB2785567100F0FE2D /* Project-CoreDataHelpers.swift */,
 				5759EAF62783EDC60003A493 /* HomeView.swift */,
+				57E038B327DF6A6B0025664F /* ProjectSummaryView.swift */,
 				579C790D27822D75008B7845 /* ContentView.swift */,
 				5732DA03278D22220082E926 /* AwardsView.swift */,
 				57B961BD2787D40800004321 /* EditProjectView.swift */,
 				57F2AF5327862DA100A4D75F /* ItemRowView.swift */,
 				5759EAF82783EE6E0003A493 /* ProjectsView.swift */,
 				57B961B92787CF7900004321 /* ProjectHeaderView.swift */,
+				57E038B127DF68640025664F /* ItemListView.swift */,
 				57F2AF512786284F00A4D75F /* EditItemView.swift */,
 				579C790B27822D75008B7845 /* Expand.swift */,
 				579C79192782341B008B7845 /* Main.xcdatamodeld */,
@@ -213,10 +219,12 @@
 				5732DA06278D29C10082E926 /* Color-Additions.swift in Sources */,
 				579C791D2782368F008B7845 /* DataController.swift in Sources */,
 				57F2AF5427862DA100A4D75F /* ItemRowView.swift in Sources */,
+				57E038B427DF6A6B0025664F /* ProjectSummaryView.swift in Sources */,
 				5732DA04278D22220082E926 /* AwardsView.swift in Sources */,
 				579C790E27822D75008B7845 /* ContentView.swift in Sources */,
 				57B961B82787CA7A00004321 /* Binding-OnChange.swift in Sources */,
 				5759EAF72783EDC60003A493 /* HomeView.swift in Sources */,
+				57E038B227DF68640025664F /* ItemListView.swift in Sources */,
 				579C790C27822D75008B7845 /* Expand.swift in Sources */,
 				57D2C0BA2785557500F0FE2D /* Item-CoreDataHelpers.swift in Sources */,
 				5732DA02278D21660082E926 /* Award.swift in Sources */,
