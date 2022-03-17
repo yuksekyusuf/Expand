@@ -64,7 +64,7 @@
 		57E038B327DF6A6B0025664F /* ProjectSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSummaryView.swift; sourceTree = "<group>"; };
 		57F2AF512786284F00A4D75F /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		57F2AF5327862DA100A4D75F /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
-		57F5CB98278290150006FB1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		57F5CB98278290150006FB1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +78,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5764387627E383E900AB20BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5759EAF62783EDC60003A493 /* HomeView.swift */,
+				57E038B327DF6A6B0025664F /* ProjectSummaryView.swift */,
+				57E038B127DF68640025664F /* ItemListView.swift */,
+				5759EAF82783EE6E0003A493 /* ProjectsView.swift */,
+				57F2AF5327862DA100A4D75F /* ItemRowView.swift */,
+				579C790D27822D75008B7845 /* ContentView.swift */,
+				57F2AF512786284F00A4D75F /* EditItemView.swift */,
+				57B961B92787CF7900004321 /* ProjectHeaderView.swift */,
+				57B961BD2787D40800004321 /* EditProjectView.swift */,
+				5732DA03278D22220082E926 /* AwardsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5764387727E3843F00AB20BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				57D2C0B92785557500F0FE2D /* Item-CoreDataHelpers.swift */,
+				57D2C0BB2785567100F0FE2D /* Project-CoreDataHelpers.swift */,
+				5732DA01278D21660082E926 /* Award.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5764387827E3845600AB20BC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				579C791C2782368F008B7845 /* DataController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5764387927E3846C00AB20BC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5732D9FD278D1D620082E926 /* Bundle-Decodable.swift */,
+				57B961B72787CA7A00004321 /* Binding-OnChange.swift */,
+				5732DA05278D29C10082E926 /* Color-Additions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5764387A27E3848700AB20BC /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				57243B3F27CE8FDF00D8A5FB /* Awards.json */,
+				57243B3727CE8E5300D8A5FB /* Localizable.strings */,
+				57243B3B27CE8F4100D8A5FB /* Localizable.stringsdict */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		5764387B27E384AB00AB20BC /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				579C790B27822D75008B7845 /* Expand.swift */,
+				579C79192782341B008B7845 /* Main.xcdatamodeld */,
+				57F5CB98278290150006FB1B /* Info.plist */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
 		579C78FF27822D74008B7845 = {
 			isa = PBXGroup;
 			children = (
@@ -97,32 +162,15 @@
 		579C790A27822D75008B7845 /* Expand */ = {
 			isa = PBXGroup;
 			children = (
-				57243B3727CE8E5300D8A5FB /* Localizable.strings */,
-				57243B3F27CE8FDF00D8A5FB /* Awards.json */,
-				5732D9FD278D1D620082E926 /* Bundle-Decodable.swift */,
-				57B961B72787CA7A00004321 /* Binding-OnChange.swift */,
-				5732DA05278D29C10082E926 /* Color-Additions.swift */,
-				579C791C2782368F008B7845 /* DataController.swift */,
-				5732DA01278D21660082E926 /* Award.swift */,
-				57D2C0B92785557500F0FE2D /* Item-CoreDataHelpers.swift */,
-				57D2C0BB2785567100F0FE2D /* Project-CoreDataHelpers.swift */,
-				5759EAF62783EDC60003A493 /* HomeView.swift */,
-				57E038B327DF6A6B0025664F /* ProjectSummaryView.swift */,
-				579C790D27822D75008B7845 /* ContentView.swift */,
-				5732DA03278D22220082E926 /* AwardsView.swift */,
-				57B961BD2787D40800004321 /* EditProjectView.swift */,
-				57F2AF5327862DA100A4D75F /* ItemRowView.swift */,
-				5759EAF82783EE6E0003A493 /* ProjectsView.swift */,
-				57B961B92787CF7900004321 /* ProjectHeaderView.swift */,
-				57E038B127DF68640025664F /* ItemListView.swift */,
-				57F2AF512786284F00A4D75F /* EditItemView.swift */,
-				579C790B27822D75008B7845 /* Expand.swift */,
-				579C79192782341B008B7845 /* Main.xcdatamodeld */,
+				5764387827E3845600AB20BC /* Controllers */,
+				5764387727E3843F00AB20BC /* Models */,
+				5764387627E383E900AB20BC /* Views */,
+				5764387927E3846C00AB20BC /* Extensions */,
+				5764387A27E3848700AB20BC /* Localization */,
+				5764387B27E384AB00AB20BC /* Configurations */,
 				579C790F27822D78008B7845 /* Assets.xcassets */,
 				57B961BB2787D2C200004321 /* Colors.xcassets */,
 				579C791127822D78008B7845 /* Preview Content */,
-				57F5CB98278290150006FB1B /* Info.plist */,
-				57243B3B27CE8F4100D8A5FB /* Localizable.stringsdict */,
 			);
 			path = Expand;
 			sourceTree = "<group>";
