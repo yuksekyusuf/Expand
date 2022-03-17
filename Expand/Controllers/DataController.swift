@@ -15,7 +15,9 @@ class DataController: ObservableObject {
     
     init(inMemory: Bool = false) {
         container = NSPersistentCloudKitContainer(name: "Main")
-        
+        // For testing and previewing purposes, we create a
+        // temporary, in-memory database by writing to /dev/null
+        // so our data is destroyed after the app finishes running.
         if inMemory {
             container.persistentStoreDescriptions.first?.url = URL(fileURLWithPath: "/dev/null")
         }
@@ -88,15 +90,18 @@ class DataController: ObservableObject {
     
     func hasEarned(award: Award) -> Bool {
         switch award.criterion {
+        // returns true if they added a certain number of items
         case "items":
             let fetchRequest: NSFetchRequest<Item> = NSFetchRequest(entityName: "Item")
             let awardCount = count(for: fetchRequest)
             return awardCount >= award.value
+        // returns true if they completed a certain number of items
         case "complete":
             let fetchRequest: NSFetchRequest<Item> = NSFetchRequest(entityName: "Item")
             fetchRequest.predicate = NSPredicate(format: "completed = true")
             let awardCount = count(for: fetchRequest)
             return awardCount >= award.value
+        // an unknown award criterion; this should never be allowed
         default:
             return false
         }
