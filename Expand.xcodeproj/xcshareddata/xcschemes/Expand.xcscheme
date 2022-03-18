@@ -26,8 +26,39 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES"
+      onlyGenerateCoverageForSpecifiedTargets = "YES">
+      <CodeCoverageTargets>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "579C790727822D74008B7845"
+            BuildableName = "Expand.app"
+            BlueprintName = "Expand"
+            ReferencedContainer = "container:Expand.xcodeproj">
+         </BuildableReference>
+      </CodeCoverageTargets>
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5724187127E4FCFB00DF5540"
+               BuildableName = "ExpandTests.xctest"
+               BlueprintName = "ExpandTests"
+               ReferencedContainer = "container:Expand.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5724188027E4FF8E00DF5540"
+               BuildableName = "ExpandUITests.xctest"
+               BlueprintName = "ExpandUITests"
+               ReferencedContainer = "container:Expand.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
