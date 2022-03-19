@@ -1,8 +1,8 @@
 //
-//  ExpandUITests.swift
-//  ExpandUITests
+//  ExpandTests.swift
+//  ExpandTests
 //
-//  Created by Ahmet Yusuf Yuksek on 3/18/22.
+//  Created by Ahmet Yusuf Yuksek on 3/19/22.
 //
 
 import CoreData
