@@ -29,12 +29,21 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       codeCoverageEnabled = "YES"
       onlyGenerateCoverageForSpecifiedTargets = "YES">
+      <CodeCoverageTargets>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "579C790727822D74008B7845"
+            BuildableName = "Expand.app"
+            BlueprintName = "Expand"
+            ReferencedContainer = "container:Expand.xcodeproj">
+         </BuildableReference>
+      </CodeCoverageTargets>
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5724187127E4FCFB00DF5540"
+               BlueprintIdentifier = "572DE40227E61FFF0091C27E"
                BuildableName = "ExpandTests.xctest"
                BlueprintName = "ExpandTests"
                ReferencedContainer = "container:Expand.xcodeproj">
